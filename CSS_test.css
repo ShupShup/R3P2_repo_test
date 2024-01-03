@@ -1,0 +1,93 @@
+.pogger{
+	background-color: rgb(228, 202, 168);
+	color:black;
+	padding: 10px;
+	margin: 0;
+}
+
+.toptext
+.top-text
+.top-block
+.top
+[class*="top"]{
+	background-color: #40e0d0;
+}
+
+h1{
+border: solid;
+padding:5px;
+margin:20px;
+font-size: 70px;
+text-align: center;
+background-image: linear-gradient(to right, #00ff00,pink,white,#FF4363, #1143c3,#40e0d0);
+font-family: 'Dancing Script'
+}
+
+h2{
+	border: dashed 3px;
+	background-color: rgba(255, 99, 71, 0.2);
+	padding:10px;
+	font-family: 'Dancing Script'
+}
+
+#newP{
+	color: orange;
+	font-size: 200 18%;
+	border:2px solid black;
+}
+
+
+table, th, td {
+	border: 3px dashed RebeccaPurple;
+	border-collapse: collapse;
+}
+th{
+	background-color: Tomato;
+}
+/*td{
+	background-color: BurlyWood;
+}*/
+tr:nth-child(even){
+	background-color: Orange
+}
+
+ul {
+	list-style-type: none;
+	margin:0px;
+	padding:0px;
+	overflow: hidden;
+	background-color: rgb(11, 11, 11);
+}
+
+li{
+	float: left;
+}
+li a {
+	display: block;
+	color: aquamarine;
+	text-align: center;
+	padding: 16px;
+	text-decoration: none;
+}
+li a:hover {
+	background-color: rgb(223, 48, 239)
+}
+
+::selection{
+	color: #FF4363;
+	background-color: #00ff00;
+}
+
+a[target="amonga"]{
+	color: limegreen
+}
+
+[title ~= "amogus"]{
+	border: 5px solid yellow;
+	border-radius: 8px;
+}
+
+
+span{
+	display: block;
+}
